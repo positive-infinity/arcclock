@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ATTENTION: the theme prefix (e.g. equilibrium) must exactly match the value string in string-array "theme_values" and be followed by an underscore! -->
+        
+    <!-- theme custom_1 defaults -->
+    <string name="custom_1_border_width_default">0.5</string>
+    <string name="custom_1_arc_gap_default">0.5</string>
+    <string name="custom_1_arc_width_default">0.9</string>
+    <bool name="custom_1_twenty_four_hour_mode_default">false</bool>
+    <bool name="custom_1_inverse_mode_default">false</bool>
+    <bool name="custom_1_draw_outline_default">false</bool>
+    <integer name="custom_1_background_color_default">0xff000000</integer>
+    <integer name="custom_1_hour_arc_color_default">0xff555555</integer>
+    <integer name="custom_1_minute_arc_color_default">0xff555555</integer>
+    <integer name="custom_1_second_arc_color_default">0xff555555</integer>
+    
+    <!-- theme custom_2 defaults -->
+    <string name="custom_2_border_width_default">0.5</string>
+    <string name="custom_2_arc_gap_default">0.5</string>
+    <string name="custom_2_arc_width_default">0.9</string>
+    <bool name="custom_2_twenty_four_hour_mode_default">false</bool>
+    <bool name="custom_2_inverse_mode_default">false</bool>
+    <bool name="custom_2_draw_outline_default">false</bool>
+    <integer name="custom_2_background_color_default">0xff000000</integer>
+    <integer name="custom_2_hour_arc_color_default">0xff555555</integer>
+    <integer name="custom_2_minute_arc_color_default">0xff555555</integer>
+    <integer name="custom_2_second_arc_color_default">0xff555555</integer>
+    
+    <!-- theme custom_3 defaults -->
+    <string name="custom_3_border_width_default">0.5</string>
+    <string name="custom_3_arc_gap_default">0.5</string>
+    <string name="custom_3_arc_width_default">0.9</string>
+    <bool name="custom_3_twenty_four_hour_mode_default">false</bool>
+    <bool name="custom_3_inverse_mode_default">false</bool>
+    <bool name="custom_3_draw_outline_default">false</bool>
+    <integer name="custom_3_background_color_default">0xff000000</integer>
+    <integer name="custom_3_hour_arc_color_default">0xff555555</integer>
+    <integer name="custom_3_minute_arc_color_default">0xff555555</integer>
+    <integer name="custom_3_second_arc_color_default">0xff555555</integer>
+    
+    <!-- theme equilibrium defaults -->
+    <string name="equilibrium_border_width_default">0.45</string>
+    <string name="equilibrium_arc_gap_default">0.45</string>
+    <string name="equilibrium_arc_width_default">0.9</string>
+    <bool name="equilibrium_twenty_four_hour_mode_default">false</bool>
+    <bool name="equilibrium_inverse_mode_default">false</bool>
+    <bool name="equilibrium_draw_outline_default">true</bool>
+    <integer name="equilibrium_background_color_default">0xff151515</integer>
+    <integer name="equilibrium_hour_arc_color_default">0xff754631</integer>
+    <integer name="equilibrium_minute_arc_color_default">0xff005267</integer>
+    <integer name="equilibrium_second_arc_color_default">0xff5a0067</integer>
+    
+    <!-- theme delirious defaults -->
+    <string name="delirious_border_width_default">0.2</string>
+    <string name="delirious_arc_gap_default">0.3</string>
+    <string name="delirious_arc_width_default">0.7</string>
+    <bool name="delirious_twenty_four_hour_mode_default">false</bool>
+    <bool name="delirious_inverse_mode_default">true</bool>
+    <bool name="delirious_draw_outline_default">true</bool>
+    <integer name="delirious_background_color_default">0xff151515</integer>
+    <integer name="delirious_hour_arc_color_default">0xff62E200</integer>
+    <integer name="delirious_minute_arc_color_default">0xffDAFB3F</integer>
+    <integer name="delirious_second_arc_color_default">0xffD235D2</integer>
+    
+    <!-- theme fusion defaults -->
+    <string name="fusion_border_width_default">0.8</string>
+    <string name="fusion_arc_gap_default">0.45</string>
+    <string name="fusion_arc_width_default">0.8</string>
+    <bool name="fusion_twenty_four_hour_mode_default">true</bool>
+    <bool name="fusion_inverse_mode_default">false</bool>
+    <bool name="fusion_draw_outline_default">false</bool>
+    <integer name="fusion_background_color_default">0xff151515</integer>
+    <integer name="fusion_hour_arc_color_default">0xff1047A9</integer>
+    <integer name="fusion_minute_arc_color_default">0xffD8F800</integer>
+    <integer name="fusion_second_arc_color_default">0xff00C12B</integer>
+    
+    <!-- theme thin defaults -->
+    <string name="thin_border_width_default">0.45</string>
+    <string name="thin_arc_gap_default">0.45</string>
+    <string name="thin_arc_width_default">0.1</string>
+    <bool name="thin_twenty_four_hour_mode_default">false</bool>
+    <bool name="thin_inverse_mode_default">false</bool>
+    <bool name="thin_draw_outline_default">false</bool>
+    <integer name="thin_background_color_default">0xff151515</integer>
+    <integer name="thin_hour_arc_color_default">0xff007D1C</integer>
+    <integer name="thin_minute_arc_color_default">0xffA66C00</integer>
+    <integer name="thin_second_arc_color_default">0xff60016D</integer>
+    
+    <!-- theme thick defaults -->
+    <string name="thick_border_width_default">0.1</string>
+    <string name="thick_arc_gap_default">0.2</string>
+    <string name="thick_arc_width_default">0.95</string>
+    <bool name="thick_twenty_four_hour_mode_default">false</bool>
+    <bool name="thick_inverse_mode_default">false</bool>
+    <bool name="thick_draw_outline_default">true</bool>
+    <integer name="thick_background_color_default">0xff151515</integer>
+    <integer name="thick_hour_arc_color_default">0xff007D1C</integer>
+    <integer name="thick_minute_arc_color_default">0xffA66C00</integer>
+    <integer name="thick_second_arc_color_default">0xff60016D</integer>
+    
+    <!-- theme acquiesce defaults -->
+    <string name="acquiesce_border_width_default">0.9</string>
+    <string name="acquiesce_arc_gap_default">0.45</string>
+    <string name="acquiesce_arc_width_default">0.5</string>
+    <bool name="acquiesce_twenty_four_hour_mode_default">true</bool>
+    <bool name="acquiesce_inverse_mode_default">false</bool>
+    <bool name="acquiesce_draw_outline_default">true</bool>
+    <integer name="acquiesce_background_color_default">0xff130821</integer>
+    <integer name="acquiesce_hour_arc_color_default">0xffACB936</integer>
+    <integer name="acquiesce_minute_arc_color_default">0xffFFED73</integer>
+    <integer name="acquiesce_second_arc_color_default">0xffFFC373</integer>
+    
+    <!-- theme simplicity defaults -->
+    <string name="simplicity_border_width_default">0.45</string>
+    <string name="simplicity_arc_gap_default">0.45</string>
+    <string name="simplicity_arc_width_default">0.9</string>
+    <bool name="simplicity_twenty_four_hour_mode_default">false</bool>
+    <bool name="simplicity_inverse_mode_default">false</bool>
+    <bool name="simplicity_draw_outline_default">true</bool>
+    <integer name="simplicity_background_color_default">0xff151515</integer>
+    <integer name="simplicity_hour_arc_color_default">0xff5DCEC6</integer>
+    <integer name="simplicity_minute_arc_color_default">0xff906CD7</integer>
+    <integer name="simplicity_second_arc_color_default">0xff6D87D6</integer>
+    
+    <!-- theme esoteric defaults -->
+    <string name="esoteric_border_width_default">0.45</string>
+    <string name="esoteric_arc_gap_default">0.45</string>
+    <string name="esoteric_arc_width_default">0.9</string>
+    <bool name="esoteric_twenty_four_hour_mode_default">false</bool>
+    <bool name="esoteric_inverse_mode_default">false</bool>
+    <bool name="esoteric_draw_outline_default">false</bool>
+    <integer name="esoteric_background_color_default">0xff151515</integer>
+    <integer name="esoteric_hour_arc_color_default">0xffBAF300</integer>
+    <integer name="esoteric_minute_arc_color_default">0xff5DE100</integer>
+    <integer name="esoteric_second_arc_color_default">0xffD30068</integer>
+
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- general, overriden in app xmls -->
+    <string name="app_name">Arc Clock</string>
+    <string name="link_to_play_store">https://play.google.com/store/apps/details?id=de.pnpq.arcclock</string>
+    <string name="feedback_email">mailto:positive.infinity.development@gmail.com?subject=Arc Clock Feedback</string>
+
+    <!-- general -->
+    <string name="settings">Settings</string>
+    <string name="description">A beautiful abstract arc clock</string>
+    <string name="tap_to_apply">Tap color to apply</string>
+    <string name="hex">Hex value</string>
+    <string name="choose_color">Choose Color</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="theme_reset_question">Are you sure?</string>
+    <string name="theme_equilibrium">Equilibrium</string>
+    <string name="theme_custom_1">Custom 1</string>
+    <string name="theme_custom_2">Custom 2</string>
+    <string name="theme_custom_3">Custom 3</string>
+    <string name="theme_delirious">Delirious</string>
+    <string name="theme_fusion">Fusion</string>
+    <string name="theme_thin">Thin</string>
+    <string name="theme_thick">Thick</string>
+    <string name="theme_acquiesce">Acquiesce</string>
+    <string name="theme_simplicity">Simplicity</string>
+    <string name="theme_esoteric">Esoteric</string>
+
+    <!--
+         ATTENTION: when adding new keys, check 
+                    * if a default needs to be defined in themes.xml
+                    * if the key has to be copied in SettingsHelper.transferPreferences() 
+    -->
+    <!-- preference keys -->
+    <string name="themes_key">themes</string>
+    <string name="theme_key">theme</string>
+    <string name="theme_reset_key">theme_reset</string>
+    <string name="layout_key">layout</string>
+    <string name="border_width_key">border_width</string>
+    <string name="arc_gap_key">arc_gap</string>
+    <string name="arc_width_key">arc_width</string>
+    <string name="twenty_four_hour_mode_key">twenty_four_hour_mode</string>
+    <string name="inverse_mode_key">inverse_mode</string>
+    <string name="draw_outline_key">draw_outline</string>
+    <string name="colors_key">colors</string>
+    <string name="background_color_key">background_color</string>
+    <string name="hour_arc_color_key">hour_arc_color</string>
+    <string name="minute_arc_color_key">minute_arc_color</string>
+    <string name="second_arc_color_key">second_arc_color</string>
+    <string name="about_key">about</string>
+    <string name="rate_key">rate</string>
+    <string name="feedback_key">feedback</string>
+
+    <!-- preference titles -->
+    <string name="themes_title">Themes</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_reset_title">Reset to defaults</string>
+    <string name="layout_title">Layout</string>
+    <string name="border_width_title">Border Width</string>
+    <string name="arc_gap_title">Arc Gap</string>
+    <string name="arc_width_title">Arc Width</string>
+    <string name="twenty_four_hour_mode_title">24h Mode</string>
+    <string name="inverse_mode_title">Inverse Mode</string>
+    <string name="draw_outline_title">Arc Outline</string>
+    <string name="colors_title">Colors</string>
+    <string name="background_color_title">Background Color</string>
+    <string name="hour_arc_color_title">Hour Arc Color</string>
+    <string name="minute_arc_color_title">Minute Arc Color</string>
+    <string name="second_arc_color_title">Second Arc Color</string>
+    <string name="about_title">About</string>
+    <string name="rate_title">Rate</string>
+    <string name="feedback_title">Feedback</string>
+
+    <!-- preference summaries -->
+    <string name="theme_reset_summary">Reset current theme settings to defaults</string>
+    <string name="twenty_four_hour_mode_summary">Display hour arc in 24h mode</string>
+    <string name="inverse_mode_summary">Display clock in inverse mode</string>
+    <string name="draw_outline_summary">Draw outline of arcs</string>
+    <string name="feedback_summary">Please write us if you have any suggestions to improve this wallpaper. Your ideas are highly welcome and will be implemented as soon as possible!</string>
+    <string name="rate_summary">Rate the wallpaper in Google Play if you like it. Thanks!</string>
+
+    <string-array name="width_summaries">
+        <item>Very Narrow</item>
+        <item>Narrow</item>
+        <item>Medium</item>
+        <item>Wide</item>
+        <item>Very Wide</item>
+    </string-array>
+
+    <!-- preference defaults -->
+    <string name="theme_default">@string/theme_equilibrium_value</string>
+    <string name="border_width_default">0.45</string>
+    <string name="arc_gap_default">0.45</string>
+    <string name="arc_width_default">0.9</string>
+
+    <integer name="background_color_default">0xff151515</integer>
+    <integer name="hour_arc_color_default">0xff754631</integer>
+    <integer name="minute_arc_color_default">0xff005267</integer>
+    <integer name="second_arc_color_default">0xff5a0067</integer>
+
+    <bool name="twenty_four_hour_mode_default">false</bool>
+    <bool name="inverse_mode_default">false</bool>
+    <bool name="draw_outline_default">true</bool>
+
+    <!-- preference entries -->
+    <string-array name="theme_entries">
+        <item>@string/theme_equilibrium</item>
+        <item>@string/theme_custom_1</item>
+        <item>@string/theme_custom_2</item>
+        <item>@string/theme_custom_3</item>
+        <item>@string/theme_delirious</item>
+        <item>@string/theme_fusion</item>
+        <item>@string/theme_thin</item>
+        <item>@string/theme_thick</item>
+        <item>@string/theme_acquiesce</item>
+        <item>@string/theme_simplicity</item>
+        <item>@string/theme_esoteric</item>
+    </string-array>
+
+    <!-- preference values -->
+    <string-array name="theme_values">
+        <item>@string/theme_equilibrium_value</item>
+        <item>@string/theme_custom_1_value</item>
+        <item>@string/theme_custom_2_value</item>
+        <item>@string/theme_custom_3_value</item>
+        <item>@string/theme_delirious_value</item>
+        <item>@string/theme_fusion_value</item>
+        <item>@string/theme_thin_value</item>
+        <item>@string/theme_thick_value</item>
+        <item>@string/theme_acquiesce_value</item>
+        <item>@string/theme_simplicity_value</item>
+        <item>@string/theme_esoteric_value</item>
+    </string-array>
+
+    <string name="theme_equilibrium_value">equilibrium</string>
+    <string name="theme_custom_1_value">custom_1</string>
+    <string name="theme_custom_2_value">custom_2</string>
+    <string name="theme_custom_3_value">custom_3</string>
+    <string name="theme_delirious_value">delirious</string>
+    <string name="theme_fusion_value">fusion</string>
+    <string name="theme_thin_value">thin</string>
+    <string name="theme_thick_value">thick</string>
+    <string name="theme_acquiesce_value">acquiesce</string>
+    <string name="theme_simplicity_value">simplicity</string>
+    <string name="theme_esoteric_value">esoteric</string>
+
+</resources>

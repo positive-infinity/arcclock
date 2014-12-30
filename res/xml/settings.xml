@@ -1,0 +1,98 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/themes_key"
+        android:title="@string/themes_title" >
+        <de.pnpq.arcclock.preferences.ListPreferenceWithSummary
+            android:defaultValue="@string/theme_default"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:key="@string/theme_key"
+            android:title="@string/theme_title" />
+
+        <de.pnpq.arcclock.preferences.ResetPreference
+            android:dialogMessage="@string/theme_reset_question"
+            android:key="@string/theme_reset_key"
+            android:negativeButtonText="@string/no"
+            android:persistent="false"
+            android:positiveButtonText="@string/yes"
+            android:summary="@string/theme_reset_summary"
+            android:title="@string/theme_reset_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/layout_key"
+        android:title="@string/layout_title" >
+        <de.pnpq.arcclock.preferences.SliderPreference
+            android:defaultValue="@string/border_width_default"
+            android:key="@string/border_width_key"
+            android:summary="@array/width_summaries"
+            android:title="@string/border_width_title" />
+        <de.pnpq.arcclock.preferences.SliderPreference
+            android:defaultValue="@string/arc_gap_default"
+            android:key="@string/arc_gap_key"
+            android:summary="@array/width_summaries"
+            android:title="@string/arc_gap_title" />
+        <de.pnpq.arcclock.preferences.SliderPreference
+            android:defaultValue="@string/arc_width_default"
+            android:key="@string/arc_width_key"
+            android:summary="@array/width_summaries"
+            android:title="@string/arc_width_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/draw_outline_default"
+            android:key="@string/draw_outline_key"
+            android:summary="@string/draw_outline_summary"
+            android:title="@string/draw_outline_title" />
+        <CheckBoxPreference
+            android:defaultValue="@bool/twenty_four_hour_mode_default"
+            android:key="@string/twenty_four_hour_mode_key"
+            android:summary="@string/twenty_four_hour_mode_summary"
+            android:title="@string/twenty_four_hour_mode_title" />
+        <CheckBoxPreference
+            android:defaultValue="@bool/inverse_mode_default"
+            android:key="@string/inverse_mode_key"
+            android:summary="@string/inverse_mode_summary"
+            android:title="@string/inverse_mode_title" />        
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/colors_key"
+        android:title="@string/colors_title" >
+        <de.pnpq.arcclock.preferences.ColorPickerPreference
+            android:defaultValue="@integer/background_color_default"
+            android:key="@string/background_color_key"
+            android:title="@string/background_color_title" />
+        <de.pnpq.arcclock.preferences.ColorPickerPreference
+            android:defaultValue="@integer/hour_arc_color_default"
+            android:key="@string/hour_arc_color_key"
+            android:title="@string/hour_arc_color_title" />
+        <de.pnpq.arcclock.preferences.ColorPickerPreference
+            android:defaultValue="@integer/minute_arc_color_default"
+            android:key="@string/minute_arc_color_key"
+            android:title="@string/minute_arc_color_title" />
+        <de.pnpq.arcclock.preferences.ColorPickerPreference
+            android:defaultValue="@integer/second_arc_color_default"
+            android:key="@string/second_arc_color_key"
+            android:title="@string/second_arc_color_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/about_key"
+        android:title="@string/about_title" >
+        <Preference
+            android:key="@string/rate_key"
+            android:summary="@string/rate_summary"
+            android:title="@string/rate_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/link_to_play_store" />
+        </Preference>        
+        <Preference
+            android:key="@string/feedback_key"
+            android:summary="@string/feedback_summary"
+            android:title="@string/feedback_title" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/feedback_email" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

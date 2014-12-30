@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.pnpq.arcclock"
+    android:versionCode="7"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <application
+        android:icon="@drawable/ic_launcher_arcclock"
+        android:label="@string/app_name"
+        android:theme="@style/ArcClockStyle" >
+        <service
+            android:name="de.pnpq.arcclock.services.ArcClockWallpaperService"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/main" />
+        </service>
+
+        <activity
+            android:name="de.pnpq.arcclock.activities.SettingsActivity"
+            android:exported="true"
+            android:label="@string/settings" />
+    </application>
+
+</manifest>
